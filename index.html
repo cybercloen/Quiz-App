@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Web Development Quiz</title>
+</head>
+<body>
+    <div class="app">
+        <h1><i class="fas fa-code"></i> Web Development Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <!-- Answer buttons will be inserted here by JavaScript -->
+            </div>
+            <div class="quiz-footer">
+                <span id="question-number">Question 1 of 20</span>
+                <button id="next-btn">Next <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+        
+        <div class="score-container hide" id="score-container">
+            <h2>Quiz Completed! 🎉</h2>
+            <p>Your Score: <span id="score">0</span>/20</p>
+            <button id="restart-btn"><i class="fas fa-redo"></i> Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
